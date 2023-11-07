@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GridDemo</title>
+    <title>Following Page</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -21,8 +21,8 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <script>
-      function myFunction() {
-        window.location.href = "following_page.html";
+      function myFunction_forYou() {
+        window.location.href = "index.html";
       }
     </script>
   </head>
@@ -83,7 +83,7 @@
       </aside>
 
       <article>
-        <!-- For Mobile View -->
+        <!-- For Mobile -->
         <div class="article_header">
           <div class="prof_pic">
             <img src="avtar2.jpg" alt="profile_Photo" class="prof_pic" />
@@ -94,6 +94,77 @@
           <div class="Article_Option">
             <i class="fa-solid fa-gear"></i>
           </div>
+        </div>
+        <!-- End -->
+        <div class="post_Home">
+          <h3>Home</h3>
+        </div>
+        <div class="button">
+          <div class="Post_Button">
+            <button onclick="myFunction_forYou()">For You</button>
+          </div>
+          <div class="Post_Button2">
+            <button>Following</button>
+          </div>
+          <div class="Article_option">
+            <i class="fa-solid fa-gear"></i>
+          </div>
+        </div>
+        <!-- <div class="button">
+            <div class="Post_Button">
+              <h2>For You</h2>
+            </div>
+            <div class="Post_Button2">
+              <h2>Following</h2>
+            </div>
+          </div> -->
+        <div class="tweet_Box">
+          <form>
+            <div class="tweetbox__input">
+              <img src="avtar2.jpg" alt="profile_Photo" class="prof_pic" />
+              <input type="text" placeholder="What is happening?!" />
+            </div>
+            <div class="tweet_icons_button">
+              <div class="icons">
+                <i class="fa-solid fa-photo-film"></i>
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-regular fa-face-smile"></i>
+                <i class="fa-regular fa-calendar-check"></i>
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="tweet">
+                <button class="tweetBox__tweetButton">Post</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="feed_post">
+          <blockquote class="twitter-tweet">
+            <p lang="mr" dir="ltr">
+              2023 World Cup : ऑस्ट्रेलियाला मोठा धक्का, मॅक्सवेल गोल्फ खेळायला
+              गेला अन् दुखापत घेऊन आला
+              <a href="https://t.co/HkMVRKSuPF">https://t.co/HkMVRKSuPF</a>
+              <a
+                href="https://twitter.com/hashtag/Maxwell?src=hash&amp;ref_src=twsrc%5Etfw"
+                >#Maxwell</a
+              >
+              <a
+                href="https://twitter.com/hashtag/WorldCup23?src=hash&amp;ref_src=twsrc%5Etfw"
+                >#WorldCup23</a
+              >
+            </p>
+            &mdash; ABP माझा (@abpmajhatv)
+            <a
+              href="https://twitter.com/abpmajhatv/status/1719653477792858596?ref_src=twsrc%5Etfw"
+            >
+              November 1, 2023</a
+            >
+          </blockquote>
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
         </div>
         <div class="Article_Footer">
           <div class="sidebarOption Active">
@@ -112,98 +183,6 @@
             <i class="fa-regular fa-envelope"></i>
             <!-- <p class="option">Messages</p> -->
           </div>
-        </div>
-        <!-- Mobile View End -->
-        <!-- <div class="post_Home">
-          <h3>Home</h3>
-        </div> -->
-        <div class="button">
-          <div class="Post_Button">
-            <button id="for_you">For You</button>
-          </div>
-          <div class="Post_Button2">
-            <button id="following" onclick="myFunction()">Following</button>
-          </div>
-          <div class="Article_option">
-            <i class="fa-solid fa-gear"></i>
-          </div>
-        </div>
-        <div class="tweet_Box">
-          <form id="tweeter_Form">
-            <div class="tweetbox__input">
-              <img src="avtar2.jpg" alt="profile_Photo" class="prof_pic" />
-              <input type="text" placeholder="What is happening?!" />
-            </div>
-            <div class="tweet_icons_button">
-              <div class="icons">
-                <i class="fa-solid fa-photo-film"></i>
-                <i class="fa-solid fa-list"></i>
-                <i class="fa-regular fa-face-smile"></i>
-                <i class="fa-regular fa-calendar-check"></i>
-                <i class="fa-solid fa-location-dot"></i>
-              </div>
-              <button class="tweetBox__tweetButton">Post</button>
-            </div>
-          </form>
-        </div>
-        <div class="feed_post">
-          <!-- <img src="post.png" alt="post" /> -->
-
-          <blockquote class="twitter-tweet">
-            <p lang="mr" dir="ltr">
-              मराठा समाजाने मागासवर्गीय <br />बनण्याच्या फंदात पडू नये : गुणरत्न
-              सदावर्ते<br />
-              🔗<a href="https://t.co/btOpgBuu14">https://t.co/btOpgBuu14</a
-              ><a
-                href="https://twitter.com/hashtag/MarathaReservation?src=hash&amp;ref_src=twsrc%5Etfw"
-                >#MarathaReservation</a
-              >
-              <a
-                href="https://twitter.com/hashtag/GunratnaSadavarte?src=hash&amp;ref_src=twsrc%5Etfw"
-                >#GunratnaSadavarte</a
-              >
-              <a href="https://t.co/o58W4tGWtQ">pic.twitter.com/o58W4tGWtQ</a>
-            </p>
-            &mdash; ABP माझा (@abpmajhatv)
-            <a
-              href="https://twitter.com/abpmajhatv/status/1718509820930838558?ref_src=twsrc%5Etfw"
-              >October 29, 2023</a
-            >
-          </blockquote>
-          <script
-            async
-            src="https://platform.twitter.com/widgets.js"
-            charset="utf-8"
-          ></script>
-        </div>
-        <div class="feed_post">
-          <!-- <img src="post.png" alt="post" /> -->
-          <blockquote class="twitter-tweet">
-            <p lang="mr" dir="ltr">
-              मराठा समाजाने मागासवर्गीय <br />बनण्याच्या फंदात पडू नये : गुणरत्न
-              सदावर्ते<br />
-              🔗<a href="https://t.co/btOpgBuu14">https://t.co/btOpgBuu14</a
-              ><a
-                href="https://twitter.com/hashtag/MarathaReservation?src=hash&amp;ref_src=twsrc%5Etfw"
-                >#MarathaReservation</a
-              >
-              <a
-                href="https://twitter.com/hashtag/GunratnaSadavarte?src=hash&amp;ref_src=twsrc%5Etfw"
-                >#GunratnaSadavarte</a
-              >
-              <a href="https://t.co/o58W4tGWtQ">pic.twitter.com/o58W4tGWtQ</a>
-            </p>
-            &mdash; ABP माझा (@abpmajhatv)
-            <a
-              href="https://twitter.com/abpmajhatv/status/1718509820930838558?ref_src=twsrc%5Etfw"
-              >October 29, 2023</a
-            >
-          </blockquote>
-          <script
-            async
-            src="https://platform.twitter.com/widgets.js"
-            charset="utf-8"
-          ></script>
         </div>
       </article>
 
